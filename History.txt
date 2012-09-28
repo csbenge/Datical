@@ -1,0 +1,21 @@
+#
+# git project setup
+#
+
+git config --global user.email csbenge@gmail.com
+git config --global user.name "Carey Benge"
+git config --global core.editor "vi"
+git remote add origin git@github.com:csbenge/Datical.git
+git remote set-url origin ssh://git@github.com/csbenge/Datical.git
+git push -u origin master
+
+
+#########################
+# X Application
+
+rails generate scaffold Engine eng_name:string eng_description:string eng_type:string eng_host:string eng_threads:integer
+rake db:migrate
+
+rails generate scaffold Worker wrk_name:string wrk_description:string wrk_type:string wrk_host:string
+rake db:migrate
+

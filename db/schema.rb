@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120716214043) do
+ActiveRecord::Schema.define(:version => 20120928191046) do
 
   create_table "artifacts", :force => true do |t|
     t.string   "art_name"
@@ -34,19 +34,6 @@ ActiveRecord::Schema.define(:version => 20120716214043) do
     t.datetime "updated_at", :null => false
   end
 
-  create_table "db_profiles", :force => true do |t|
-    t.string   "db_name"
-    t.string   "db_description"
-    t.string   "db_type"
-    t.string   "db_driver"
-    t.string   "db_driver_path"
-    t.string   "db_url"
-    t.string   "db_username"
-    t.string   "db_password"
-    t.datetime "created_at",     :null => false
-    t.datetime "updated_at",     :null => false
-  end
-
   create_table "depots", :force => true do |t|
     t.string   "dep_name"
     t.string   "dep_desc"
@@ -55,6 +42,16 @@ ActiveRecord::Schema.define(:version => 20120716214043) do
     t.integer  "dep_status"
     t.integer  "dep_type"
     t.string   "dep_url"
+  end
+
+  create_table "engines", :force => true do |t|
+    t.string   "eng_name"
+    t.string   "eng_description"
+    t.string   "eng_type"
+    t.string   "eng_host"
+    t.integer  "eng_threads"
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
   end
 
   create_table "packages", :force => true do |t|

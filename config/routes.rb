@@ -58,6 +58,9 @@ DeePoh::Application.routes.draw do
   resources :credentials
   match '/credentials/new', to: 'credentials#new'
   
+  resources :engines
+  match '/engines/new', to: 'engines#new'
+  
  
   # The priority is based upon order of creation:
   # first created -> highest priority.

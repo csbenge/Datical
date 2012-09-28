@@ -315,11 +315,57 @@ en:
       edit_credential:    "Edit Credential"
       cancel:             "Cancel"
     form:
-      depot_name:       "Depot Name"
+      depot_name:         "Depot Name"
       user_name:          "User Name"
       role_name:          "Role Name"
       error01:            "prohibited this user from being saved"
-      
+     
+####################
+# Engines
+####################
+
+  engines:
+    index:
+      engines:             "Engines"
+      engines_tooltip:     "An Engine is a ..."
+      engine_name:         "Engine Name"
+      engine_desc:         "Engine Description"
+      engine_type:         "Engine Type"
+      engine_host:         "Engine Host"
+      engine_threads:      "Engine Threads"
+      new_engine:          "New Engine"
+      show:               "Show"
+      edit:               "Edit"
+      destroy:            "Destroy"
+      confirm:            "Confirm Delete Engine?"
+    new:
+      add_engine:          "Add Engine"
+      cancel:              "Cancel"
+    edit:
+      edit_engine:         "Edit Engine"
+      details:             "Details"
+      cancel:              "Cancel"
+    show:
+      engines_details:     "Engine Details"
+      engine_name:         "Engine Name"
+      engine_desc:         "Engine Description"
+      engine_type:         "Engine Type"
+      engine_host:         "Engine Host"
+      engine_threads:      "Engine Threads"
+      edit_engine:         "Edit Engine"
+      cancel:              "Cancel"
+    form:
+      engine_name:         "Engine Name"
+      engine_desc:         "Engine Description"
+      engine_type:         "Engine Type"
+      engine_host:         "Engine Host"
+      engine_threads:      "Engine Threads"
+      submit:              "Submit"
+
+####################
+# Shared
+####################
+
   shared:
     nav:
       tab_home:           "Home"

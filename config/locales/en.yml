@@ -361,6 +361,55 @@ en:
       engine_host:         "Engine Host"
       engine_threads:      "Engine Threads"
       submit:              "Submit"
+      
+####################
+# Workers
+####################
+
+  workers:
+    index:
+      workers:             "Workers"
+      workers_tooltip:     "An Worker is a ..."
+      worker_name:         "Worker Name"
+      worker_desc:         "Worker Description"
+      worker_type:         "Worker Type"
+      worker_host:         "Worker Host"
+      worker_port:         "Worker Port"
+      worker_user:         "Worker User"
+      worker_hash_pass:     "Worker Password"
+      new_worker:          "New Worker"
+      show:               "Show"
+      edit:               "Edit"
+      destroy:            "Destroy"
+      confirm:            "Confirm Delete Worker?"
+    new:
+      add_worker:          "Add Worker"
+      cancel:              "Cancel"
+    edit:
+      edit_Worker:         "Edit Worker"
+      details:             "Details"
+    show:
+      workers_details:     "Worker Details"
+      worker_name:         "Worker Name"
+      worker_desc:         "Worker Description"
+      worker_type:         "Worker Type"
+      worker_host:         "Worker Host"
+      worker_port:         "Worker Port"
+      worker_user:         "Worker User"
+      worker_hash_pass:     "Worker Password"
+      edit_worker:         "Edit Worker"
+      back:                 "Back"
+      cancel:              "Cancel"
+    form:
+      worker_name:         "Worker Name"
+      worker_desc:         "Worker Description"
+      worker_type:         "Worker Type"
+      worker_host:         "Worker Host"
+      worker_port:         "Worker Port"
+      worker_user:         "Worker User"
+      worker_hash_pass:     "Worker Password"
+      submit:              "Submit"
+      cancel:              "Cancel"
 
 ####################
 # Shared

@@ -1,5 +1,7 @@
 DeePoh::Application.routes.draw do
   
+  resources :workers
+
   controller :sessions do
     get 'login' => :new
     post 'login' => :create
@@ -60,8 +62,10 @@ DeePoh::Application.routes.draw do
   
   resources :engines
   match '/engines/new', to: 'engines#new'
+    
+  resources :workers
+  match '/workers/new', to: 'workers#new'
   
- 
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
